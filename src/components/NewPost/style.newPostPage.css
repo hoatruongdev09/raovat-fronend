@@ -1,0 +1,131 @@
+.newPostContainer{
+    border-radius: 20px;
+    background-color: #ecf0f1;
+    position: relative;
+    margin: 10px 12px;
+    padding: 12px 12px 4px;
+}
+.newPostTitleHolder{
+    border-bottom-width: 1px;
+    border-bottom-color: darkolivegreen;
+    border-bottom-style: solid;
+}
+.newPostTitle {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px 0px 5px;
+}
+.newPostHolder {
+    padding: 15px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(5,1fr);
+}
+.postItem {
+    border-bottom: 1px solid rgb(244,244,244);
+    border-right: 1px solid rgb(244,244,244);
+    padding: 12px;
+    flex-basis: 20%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background: #fff;
+}
+.postShadow{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    padding-right: 100%;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+.shadow {
+    box-shadow: 10px 10px 8px #222,
+    10px -10px 8px #222,
+    -10px 10px 8px #222,
+    -10px -10px 8px #222;
+}
+.postHolder{
+    display: block;
+    position: relative;
+}
+.postThumbnailHolder {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+}
+.postThumbnailWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    overflow: hidden;
+    border-radius: 2px;
+    background: url(https://static.chotot.com/storage/default_images/c2c_ad_image.jpg) 50% no-repeat;
+}
+.postThumbnail{
+    width: 100%;
+    height: auto;
+}
+.postItemCaption{
+    padding-bottom: 8px;
+    position: relative;
+}
+.postCaption{
+    color: #222;
+    font-size: 14px !important;
+    line-height: 1.43 !important;
+    text-overflow: unset;
+    text-decoration: none;
+    white-space: unset;
+    margin-top: 8px;
+    height: 40px !important;
+    display: block;
+}
+.postPrice {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #d0021b;
+    display: inline-block;
+    margin: 2px 4px 0 0;
+}
+.postItemFooter {
+    bottom: -6px;
+    width: 100%;
+    left: 0;
+}
+.postUserAvatar{
+    margin-top: 1px;
+    margin-right: 3px;
+    vertical-align: middle;
+    object-fit: cover;
+    border-radius: 50%;
+    background: url("../../static/icons/user.svg");
+}
+.divider{
+    display: inline-block;
+    background-color: #222;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    margin-bottom: 1.8px;
+}
+.postItemText{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 11px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    margin-top: 2px;
+}
+.itemText{
+    font-size: 10px;
+    margin: 0 3px;
+}

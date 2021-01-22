@@ -1,0 +1,95 @@
+.searchBar {
+    background-color: rgb(255, 186, 0);
+    width: 100%;
+    padding-top: 0;
+}
+.searchHolder {
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: inline-flex;
+}
+
+.infoHolder {
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: inline-flex;
+}
+
+.inputHolder {
+    width: 70%;
+    float: left;
+}
+
+.searchInput {
+    border-width: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.buttonHolder {
+    float: right;
+    width: 30%;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.searchButton {
+    text-align: center;
+    padding: 0.375rem 0px;
+    vertical-align: middle;
+    background-color: white;
+    color: rgb(255, 186, 0);
+    border: none;
+    width: 30px;
+    display: inline-flex;
+    float: right;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.headerLink {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-left: 10px;
+    color: black;
+}
+.headerIcon {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    color: black;
+}
+
+.headerName {
+    margin-left: 10px;
+}
+.postLinkHolder{
+    clear: both;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.postLink{
+    background-color: #fc9807;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    font-stretch: normal;
+    line-height: 0.33;
+    letter-spacing: normal;
+    text-align: center;
+    border-radius: 4px;
+    padding: 9.5px 20px;
+    height: 50px;
+    text-decoration: none;
+}
+.postLink :hover() {
+    text-decoration: none;
+    color: white;
+}

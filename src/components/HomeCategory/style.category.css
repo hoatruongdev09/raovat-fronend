@@ -1,0 +1,86 @@
+.categoryHolder{
+    background-color: #ecf0f1;
+    padding: 12px 12px 4px;
+    border-radius: 10px;
+    margin: 10px 12px;
+}
+.holderTitle {
+    font-size: 17px;
+    margin: 0px 0px 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+}
+.categoryHolder{
+    position: relative;
+}
+.categoryGrid{
+    overflow-x: auto;
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-auto-flow: column;
+    list-style: none;
+}
+.categorySlotHolder{
+    height: 140px;
+    outline: none;
+    cursor: pointer;
+}
+.categorySlot{
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 135px;
+    text-decoration: none;
+    flex-direction: column;
+}
+.categoryImage{
+    width: 84px;
+    height: 84px;
+    user-select: none;
+    border-radius: 20px;
+    outline: none;
+}
+.categoryTitle{
+    text-shadow: rgb(255, 255, 255) 0px 0px;
+    line-height: 1.29;
+    font-size: 14px;
+    text-align: center;
+    width: 130px;
+    height: 16px;
+    margin-top: 8px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+}
+.nextButton {
+    position: absolute;
+    display: block;
+    right: -20px;
+    top: 40% !important;
+    background: url('../../static/icons/right-arrow.svg') 50% no-repeat;
+    background-size: 100%;
+    width: 38px;
+    height: 38px;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .2 ease-in-out;
+    outline: none;
+    user-select: none;
+}
+.prevButton {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 40% !important;
+    background: url('../../static/icons/left-arrow.svg') 50% no-repeat;
+    background-size: 100%;
+    width: 38px;
+    height: 38px;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .2 ease-in-out;
+    outline: none;
+    user-select: none;
+}
