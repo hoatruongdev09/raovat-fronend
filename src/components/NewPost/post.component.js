@@ -20,7 +20,7 @@ function Post(props) {
                 </div>
                 <div className="postItemCaption">
                     <a href={`/post/${props.post._id}`} target="_blank" rel="noopener noreferrer" className="postCaption">
-                        {props.postCaption}
+                        {props.post.title}
                     </a>
                     <span className="postPrice">{props.post.price}</span>
                 </div>

@@ -1,0 +1,74 @@
+.provider-profile-wrapper{
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #e5e5e5;
+}
+.provider-wrapper {
+    padding: 0;
+    display: flex;
+    color: #333;
+}
+.provider-wrapper a:hover {
+    text-decoration: none;
+}
+.provider-thumbnail {
+    display: inline-block;
+    border: 2px solid #e5e5e5;
+    border-radius: 50px;
+    padding: 0;
+    vertical-align: middle;
+    background: url(https://static.chotot.com/storage/XE_CDN_STAGING/32ea486819346b666d9e012fea3f5be0.png) no-repeat;
+    background-size: contain;
+    background-color: #fff;
+}
+.provider-image {
+    border: 2px solid #e5e5e5;
+    margin: -2px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.provider-name-wrapper {
+    flex: 1;
+    padding-left: 8px;
+}
+.provider-name {
+    display: flex;
+}
+.provider-title {
+    margin: 5px 5px 3px 0;
+    font-size: 13px;
+    flex: 1;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.provider-info {
+    background-color: #fff;
+    color: #fe9900;
+    border: 1px solid #fe9900;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color .2 ease-in-out;
+    font-size: 10px;
+    width: max-content;
+    border-radius: 20px;
+}
+.provider-status {
+    font-size: 11px;
+    color: #9b9b9b;
+    display: flex;
+}
+.dot {
+    font-size: 30px;
+    line-height: 12px;
+    margin-right: 5px;
+    color: #9b9b9b;
+}
+.online {
+    color: #589f39;
+}
